@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaSupermercado.View.NovoProduto">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text= "Nome Produto"  />
+            <Entry x:Name="txt_nome" />
+
+            <Label Text= "Quantidade"  />
+            <Entry x:Name="txt_qtd" />
+
+            <Label Text= "Preço Unitário"  />
+            <Entry x:Name="txt_preco_unitario" />
+
+            <Label Text= "Preço Pago"  />
+            <Entry x:Name="txt_preco_pago"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

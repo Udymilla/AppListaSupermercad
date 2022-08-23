@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaSupermercado.View.EditarProduto">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text= "Nome Produto" TextColor="White" />
+            <Entry x:Name="txt_nome" TextColor="White"/>
+
+            <Label Text= "Quantidade" TextColor="White" />
+            <Entry x:Name="txt_qtd" TextColor="White"/>
+
+            <Label Text= "Preço Unitário" TextColor="White" />
+            <Entry x:Name="txt_preco_unitario" TextColor="White"/>
+
+            <Label Text= "Preço Pago" TextColor="White" />
+            <Entry x:Name="txt_preco_pago" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
